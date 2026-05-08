@@ -1,0 +1,39 @@
+# Notebook noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambienti Python
+.venv/
+venv/
+env/
+
+# Prototipo web
+node_modules/
+dist/
+build/
+.next/
+.cache/
+
+# Dati locali — nel caso ti capiti di salvarli per sbaglio dentro 04_Code/
+*.csv
+*.h5
+*.pkl
+*.parquet
+*.npy
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Segreti — mai in Git
+.env
+.env.*
+*.key
+*.pem

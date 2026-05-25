@@ -1,39 +1,65 @@
-# Notebook noise
-.ipynb_checkpoints/
-__pycache__/
-*.pyc
-*.pyo
-
-# Ambienti Python
+# =========================
+# ENVIRONMENTS (Conda / Python)
+# =========================
 .venv/
 venv/
 env/
+ENV/
+conda-env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Prototipo web
-node_modules/
-dist/
-build/
-.next/
+# Conda environments (se mai li crei dentro il progetto per errore)
+.env/
+*.conda
+
+# =========================
+# JUPYTER / NOTEBOOK
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# Kernel specs locali (opzionale, ma utile in team)
+.jupyter/
+
+# =========================
+# DATA SCIENCE / CACHE
+# =========================
 .cache/
+.pytest_cache/
+.mypy_cache/
 
-# Dati locali — nel caso ti capiti di salvarli per sbaglio dentro 04_Code/
-*.csv
-*.h5
-*.pkl
-*.parquet
-*.npy
-data/
-
-# IDE
+# =========================
+# IDE (VS Code / PyCharm)
+# =========================
 .vscode/
 .idea/
 
-# OS
+# =========================
+# SYSTEM FILES
+# =========================
 .DS_Store
 Thumbs.db
 
-# Segreti — mai in Git
-.env
-.env.*
-*.key
-*.pem
+# =========================
+# TEMP FILES
+# =========================
+*.swp
+*.swo
+.~lock.*
+
+# =========================
+# LOG FILES
+# =========================
+*.log
+
+# =========================
+# OPTIONAL: large scientific outputs
+# (UNCOMMENT if you generate them)
+# =========================
+# *.nc
+# *.h5
+# *.hdf5

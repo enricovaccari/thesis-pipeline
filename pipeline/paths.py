@@ -22,8 +22,8 @@ COPERNICUS_DIR = DATA_RAW / "Copernicus"
 RAPID_DIR = DATA_RAW / "RAPID"
 
 COPERNICUS_AMOC = COPERNICUS_DIR / "GLOBAL_OMI_NATLANTIC_amoc_max26N_timeseries.nc"
-RAPID_TRANSPORTS = RAPID_DIR / "moc_transports.nc"
-RAPID_VERTICAL = RAPID_DIR / "moc_vertical.nc"
+RAPID_TRANSPORTS = RAPID_DIR / "moc_transports_200404_2024327.nc"
+RAPID_VERTICAL = RAPID_DIR / "moc_vertical_200404_2024327.nc"
 
 
 def check_data_paths():

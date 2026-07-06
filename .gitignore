@@ -11,7 +11,7 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Conda environments (se mai li crei dentro il progetto per errore)
+# Conda environments 
 .env/
 *.conda
 
@@ -22,7 +22,7 @@ __pycache__/
 *.ipynb_checkpoints
 *.nbconvert.ipynb
 
-# Kernel specs locali (opzionale, ma utile in team)
+# Local Kernel specs 
 .jupyter/
 
 # =========================
